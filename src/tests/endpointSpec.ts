@@ -8,7 +8,7 @@ describe('Test endpoint responses', () => {
   const testWidth = 200;
   const testHeight = 200;
   const testFilename = 'fjord';
-  const imgName = `${testFilename}_${testWidth}_${testHeight}.jpeg`;
+  const imgName = `${testFilename}_${testWidth}_${testHeight}.jpg`;
   const imgPath = path.join('./assets', 'thumb', imgName);
 
   beforeAll(async () => {
